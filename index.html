@@ -5,30 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="header">
+      <div class="logo">Samuel Poh</div>
+      <ul class="menu">
+        <li class="dropdown">
+          <span>Features &#9662;</span>
+          <ul class="features-menu">
+            <!-- Start of submenu -->
+            <li><a href="#">Harder</a></li>
+            <li><a href="#">Better</a></li>
+            <li><a href="#">Faster</a></li>
+            <li><a href="#">Stronger</a></li>
+          </ul>
+          <!-- End of submenu -->
+        </li>
+        <li><a href="#">Blog</a></li>
+        <!-- These are the same -->
+        <li><a href="#">Subscribe</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+
     <article>
-      <h1>Semantic HTML</h1>
-      <p>By Troy McClure. Published January 3rd</p>
-      <p>This is an example web page explaining HTML5 semantic markup.</p>
-      <!-- ... -->
+      <h2>About me</h2>
       <p>
-        This fake article was written by somebody at InternetingIsHard.com,
-        which is a pretty decent place to learn how to become a web developer.
+        Currently learning materials based on a <a href="roadmap.sh">roadmap</a>
       </p>
     </article>
-
-    <p>&copy; 2017 InternetingIsHard.com</p>
   </body>
 </html>
