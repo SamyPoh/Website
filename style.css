@@ -6,12 +6,20 @@
   html {
 	font-size: 62.5%;
 	font-family: "Lato", sans-serif;
-  }
-  body {
-	background-color: #eee;
+	min-height: 100%;
+}
+
+body {
 	color: #000;
 	padding-top: 100px;
-  }
+	background-image: linear-gradient(128deg, rgba(255,0,0,0) 10%, rgba(255,0,0,.5) 30%,
+	rgba(255,0,0, .1) 30%, rgba(255,0,0,.8) 100%),
+	linear-gradient(258deg, rgba(255, 0, 0, 0) 10%, rgba(255,0,0,.3) 25%,
+	rgba(255,0,0, .1) 61%, rgba(255,0,0,.5) 65%),
+	linear-gradient(448deg, rgba(255,1,0,0) 40%, rgba(255, 0, 108, 0.3) 75%,
+	rgba(255,0,2, .1) 61%, rgba(247, 241, 241, 0.8) 60%)
+	;
+}
 
   h1 {
 	font-size: 3rem;
@@ -148,3 +156,5 @@
 	  font-size: 2.4rem;
 	}
   }
+
+  
